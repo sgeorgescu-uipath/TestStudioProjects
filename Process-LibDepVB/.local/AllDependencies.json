@@ -1125,24 +1125,30 @@
           }
         }
       },
-      "TestLibCC/1.0.1": {
+      "TestLibVB/1.0.1": {
         "type": "package",
         "dependencies": {
-          "TestLibCC.Library.Runtime": "1.0.1",
-          "UiPath.System.Activities": "23.8.1-preview"
+          "TestLibVB.Library.Runtime": "1.0.1",
+          "UiPath.System.Activities": "23.8.1-preview",
+          "UiPath.Testing.Activities": "23.10.0",
+          "UiPath.UIAutomation.Activities": "23.6.2-preview",
+          "UiPath.WebAPI.Activities": "1.16.2"
         }
       },
-      "TestLibCC.Library.Runtime/1.0.1": {
+      "TestLibVB.Library.Runtime/1.0.1": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Portable": "23.8.1-preview"
+          "UiPath.System.Activities.Runtime.Portable": "23.8.1-preview",
+          "UiPath.Testing.Activities": "23.10.0",
+          "UiPath.UIAutomation.Activities.Runtime.Portable": "23.6.2-preview",
+          "UiPath.WebAPI.Runtime": "1.16.2"
         },
         "compile": {
           "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/TestLibCC.dll": {},
-          "lib/net6.0/TestLibCC_Expressions_56198311.dll": {}
+          "lib/net6.0/TestLibVB.dll": {},
+          "lib/net6.0/TestLibVB_Expressions_14626574.dll": {}
         }
       },
       "UiPath/23.6.60.46509-preview": {
@@ -2808,24 +2814,30 @@
           }
         }
       },
-      "TestLibCC/1.0.1": {
+      "TestLibVB/1.0.1": {
         "type": "package",
         "dependencies": {
-          "TestLibCC.Library.Runtime": "1.0.1",
-          "UiPath.System.Activities": "23.8.1-preview"
+          "TestLibVB.Library.Runtime": "1.0.1",
+          "UiPath.System.Activities": "23.8.1-preview",
+          "UiPath.Testing.Activities": "23.10.0",
+          "UiPath.UIAutomation.Activities": "23.6.2-preview",
+          "UiPath.WebAPI.Activities": "1.16.2"
         }
       },
-      "TestLibCC.Library.Runtime/1.0.1": {
+      "TestLibVB.Library.Runtime/1.0.1": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Portable": "23.8.1-preview"
+          "UiPath.System.Activities.Runtime.Portable": "23.8.1-preview",
+          "UiPath.Testing.Activities": "23.10.0",
+          "UiPath.UIAutomation.Activities.Runtime.Portable": "23.6.2-preview",
+          "UiPath.WebAPI.Runtime": "1.16.2"
         },
         "compile": {
           "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/TestLibCC.dll": {},
-          "lib/net6.0/TestLibCC_Expressions_56198311.dll": {}
+          "lib/net6.0/TestLibVB.dll": {},
+          "lib/net6.0/TestLibVB_Expressions_14626574.dll": {}
         }
       },
       "UiPath/23.6.60.46509-preview": {
@@ -5739,10 +5751,10 @@
         "version.txt"
       ]
     },
-    "TestLibCC/1.0.1": {
-      "sha512": "qqYgmuWKxQW/jhw4ZXyD39Ojc1PO5QH8dGuchC4FBfWs3gxBI8pJbLyk/yqa1J1iOX0gerwzB+l6Dzqtvq39ug==",
+    "TestLibVB/1.0.1": {
+      "sha512": "NnHno7oWOZTabN044ZcSLCDcVti6pDjxKyQKxw3afL4fWqB0HPZOLur2c2DuKuAEpnf61g+L79+3KYmdIgU8rg==",
       "type": "package",
-      "path": "testlibcc/1.0.1",
+      "path": "testlibvb/1.0.1",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -5750,29 +5762,29 @@
         "content/.settings/Design/settings-a1b2dac1.json",
         "content/.settings/Release/settings-82ca306a.json",
         "content/.settings/Release/settings-a1b2dac1.json",
-        "content/NewActivity.xaml",
         "content/Runtime.Mapping.json",
+        "content/TestActivityVB.xaml",
         "content/bindings.json",
         "content/bindings_v2.json",
         "content/project.json",
-        "testlibcc.1.0.1.nupkg.sha512",
-        "testlibcc.nuspec"
+        "testlibvb.1.0.1.nupkg.sha512",
+        "testlibvb.nuspec"
       ]
     },
-    "TestLibCC.Library.Runtime/1.0.1": {
-      "sha512": "p5tuc3KuS1t/KYnIZRf3TaANDUoh2l9oiuvvlHy7ap8xN9BHXoJriQTKHIpnZOzxB38lAAAIX6UTu9HsAJBwEw==",
+    "TestLibVB.Library.Runtime/1.0.1": {
+      "sha512": "XGgVxbe0CuXNbX0PNfIejGrMEw0Fj9LGrZrSYYsIcbwG80wOm8viD9ZITV+k0f3ONyPqSvLJ3KSuIi/vQ0QlgQ==",
       "type": "package",
-      "path": "testlibcc.library.runtime/1.0.1",
+      "path": "testlibvb.library.runtime/1.0.1",
       "files": [
         ".nupkg.metadata",
         "content/.settings/Release/settings-82ca306a.json",
         "content/.settings/Release/settings-a1b2dac1.json",
         "content/bindings.json",
         "content/bindings_v2.json",
-        "lib/net6.0/TestLibCC.dll",
-        "lib/net6.0/TestLibCC_Expressions_56198311.dll",
-        "testlibcc.library.runtime.1.0.1.nupkg.sha512",
-        "testlibcc.library.runtime.nuspec"
+        "lib/net6.0/TestLibVB.dll",
+        "lib/net6.0/TestLibVB_Expressions_14626574.dll",
+        "testlibvb.library.runtime.1.0.1.nupkg.sha512",
+        "testlibvb.library.runtime.nuspec"
       ]
     },
     "UiPath/23.6.60.46509-preview": {
@@ -6606,7 +6618,7 @@
   "projectFileDependencyGroups": {
     "": [],
     "net6.0": [
-      "TestLibCC >= 1.0.1 <= 1.0.1",
+      "TestLibVB >= 1.0.1 <= 1.0.1",
       "UiPath.System.Activities >= 23.8.1-preview <= 23.8.1-preview",
       "UiPath.Testing.Activities >= 23.10.0 <= 23.10.0",
       "UiPath.UIAutomation.Activities >= 23.6.2-preview <= 23.6.2-preview",
@@ -6620,14 +6632,14 @@
     "restore": {
       "projectUniqueName": "Process-LibDepVB",
       "projectName": "Process-LibDepVB",
-      "projectPath": "C:\\Users\\silviu.georgescu\\Documents\\UiPath\\Process-LibDepVB\\.local",
+      "projectPath": "C:\\UiPath\\TestStudioProjects\\Process-LibDepVB\\.local",
       "packagesPath": "C:\\Users\\silviu.georgescu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\silviu.georgescu\\Documents\\UiPath\\Process-LibDepVB\\.local"
+      "outputPath": "C:\\UiPath\\TestStudioProjects\\Process-LibDepVB\\.local"
     },
     "frameworks": {
       "net6.0": {
         "dependencies": {
-          "TestLibCC": {
+          "TestLibVB": {
             "include": "Runtime",
             "target": "Package",
             "version": "[1.0.1, 1.0.1]"
